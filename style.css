@@ -1,0 +1,8 @@
+:root{
+    --bg : #BDBDBD;
+    --accent : #efe7da;
+}
+
+html{
+    background-color: var(--bg);
+}
