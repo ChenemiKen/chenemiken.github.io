@@ -1,8 +1,33 @@
 :root{
-    --bg : #BDBDBD;
+    --bg : #e2e0e0;
     --accent : #efe7da;
 }
-
 html{
     background-color: var(--bg);
+}
+body{
+    background-color: var(--bg);
+    margin-top: 6rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.font-serif{
+    font-family: "Source Serif 4", serif;
+    font-style: italic;
+    font-optical-sizing: auto;
+}
+#name{
+    font-weight: 900;
+    font-size: 300%;
+    margin-bottom: 1.5rem;
+}
+.links{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.link{
+    color: black;
+    margin-right: 2rem;
+    font-size: medium;
 }
